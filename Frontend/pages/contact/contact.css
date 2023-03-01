@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url(/common/images/background.jpg);
+  background-image: url(../../common/images/background.jpg);
 }
 iframe {
   width: 100%;

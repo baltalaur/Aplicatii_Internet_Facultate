@@ -4,15 +4,9 @@ html {
 }
 
 body {
-  background-image: url(/common/images/background.jpg);
+  background-image: url(../../common/images/background.jpg);
 }
 
-.navbar {
+iframe {
   width: 100%;
-  grid-area: "navbar";
-}
-
-.footer {
-  width: 100%;
-  grid-area: "footer";
 }
