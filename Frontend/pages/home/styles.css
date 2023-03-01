@@ -1,0 +1,18 @@
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-image: url(/common/images/background.jpg);
+}
+
+.navbar {
+  width: 100%;
+  grid-area: "navbar";
+}
+
+.footer {
+  width: 100%;
+  grid-area: "footer";
+}
