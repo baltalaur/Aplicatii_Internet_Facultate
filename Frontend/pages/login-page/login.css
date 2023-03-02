@@ -4,7 +4,9 @@ html {
 }
 
 body {
-  background-image: url(../../common/images/background.jpg);
+  background-image: url(../../common/images/login.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .login-form {
@@ -14,13 +16,24 @@ body {
 }
 
 ul {
-  font-size: 1.3rem;
-  font-weight: 600;
   list-style: none;
 }
+
+.login-button {
+  text-align: center;
+  border-radius: 330px;
+}
+.login-button :hover {
+  background-color: azure;
+  text-align: center;
+  border-radius: 330px;
+}
+
 ul li {
-  color: azure;
-  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #191825;
   margin: 20px;
   border-radius: 3px;
 }
