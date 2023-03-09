@@ -6,8 +6,17 @@
   </head>
   <body>
     <iframe src="../../common/header/header.html" frameborder="0"></iframe>
-    <form method="dialog" id="loginForm" class="login-form">
+    <form class="login-form">
       <ul>
+          <label for="username">Username:</label><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Baltariu"
+          />
+        </li>
+        
         <li>
           <label for="email">Email:</label><br />
           <input
@@ -20,19 +29,16 @@
         <li>
           <label for="password">Password:</label><br />
           <input
-            type="password"
+            type="text"
             id="password"
             name="password"
             placeholder="*******"
           /><br />
         </li>
+        <li>
         <li class="login-button">
-          <button form="loginForm" onclick="login()">Login</button>
-        </li>
-        <li class="reset-button">
-          <button form="loginForm" type="reset" onclick="resetFields()">
-            Clear Fields
-          </button>
+          <button type="submit" onclick="validate()">Login</button>
+          <button type="reset">Clear Fields</button>
         </li>
       </ul>
     </form>
