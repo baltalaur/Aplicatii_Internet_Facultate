@@ -1,12 +1,13 @@
-html {
-  min-width: 100%;
-  min-height: 100%;
-}
-
 body {
   background-image: url(../../common/images/background.jpg);
+  min-width: 100vh;
+  min-height: 100vh;
 }
 
-iframe {
+.header {
   width: 100%;
+}
+
+.youtube-video {
+  margin-left: 40%;
 }
