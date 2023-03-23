@@ -19,11 +19,14 @@ ul {
   list-style: none;
 }
 
-.login-button {
+.login-button,
+.reset-button {
   text-align: center;
   border-radius: 330px;
 }
-.login-button :hover {
+
+.login-button :hover,
+.reset-button :hover {
   background-color: azure;
   text-align: center;
   border-radius: 330px;
