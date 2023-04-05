@@ -1,16 +1,15 @@
-html {
-  min-width: 100%;
-  min-height: 100%;
-}
-
 body {
+  background-image: url(../../common/images/background.jpg);
+  min-width: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-iframe {
-  width: 100%;
+.header {
+    width: 100%;
+    scroll-behavior: unset
 }
 
 .background {

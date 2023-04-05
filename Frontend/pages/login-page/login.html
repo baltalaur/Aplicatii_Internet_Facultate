@@ -5,21 +5,8 @@
   </head>
   <body>
     <iframe src="../../common/header/header.html" frameborder="0"></iframe>
-    <form class="login-form">
+    <form method="dialog" id="loginForm" class="login-form">
       <ul>
-        <li>
-          <label for="fname">First Name:</label><br />
-          <input
-            type="text"
-            id="fname"
-            name="fname"
-            placeholder="Laurentiu"
-          /><br />
-        </li>
-        <li>
-          <label for="lname">Last Name:</label><br />
-          <input type="text" id="lname" name="lname" placeholder="Baltariu" />
-        </li>
         <li>
           <label for="email">Email:</label><br />
           <input
@@ -29,8 +16,20 @@
             placeholder="email.address@domain.com"
           />
         </li>
+        <li>
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="*******"
+          /><br />
+        </li>
         <li class="login-button">
-          <button>Login</button>
+          <button form="loginForm">Login</button>
+        </li>
+        <li class="reset-button">
+          <button form="loginForm" type="reset">Clear Fields</button>
         </li>
       </ul>
     </form>

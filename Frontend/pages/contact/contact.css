@@ -1,12 +1,10 @@
-html {
-  min-width: 100%;
-  min-height: 100%;
-}
-
 body {
-  background-image: url(../../common/images/background.jpg);
-  background-position: center center;
-  background-size: cover;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url(../../common/images/contact-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 iframe {
@@ -53,4 +51,27 @@ iframe {
 .fa-instagram {
   background: #a10091;
   color: white;
+}
+
+.contact {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "contact contact";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #205e61;
+}
+
+li {
+    font-family: Fantasy;
+    color: #205e61;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
 }

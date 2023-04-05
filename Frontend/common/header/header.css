@@ -1,3 +1,7 @@
+body {
+  width: 100hv;
+}
+
 nav {
   background-color: #333;
   height: 50px;
@@ -30,6 +34,32 @@ nav a {
 
 nav a:hover {
   color: #ccc;
+}
+
+.dropdown {
+  min-width: 13.75rem;
+}
+.dropdown-button {
+  background-color: #333;
+  color: white;
+  min-height: 50px;
+  font-size: 18px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #333;
+}
+
+.dropdown-content a {
+  min-height: 3.1rem;
+  color: white;
+  min-width: 10rem;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
+  </head>
+  <body>
+    <iframe src="../../common/header/header.html" frameborder="0"></iframe>
+    <form class="login-form">
+      <ul>
+          <label for="username">Username:</label><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Baltariu"
+          />
+        </li>
+        
+        <li>
+          <label for="email">Email:</label><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="email.address@domain.com"
+          />
+        </li>
+        <li>
+          <label for="password">Password:</label><br />
+          <input
+            type="text"
+            id="password"
+            name="password"
+            placeholder="*******"
+          /><br />
+        </li>
+        <li>
+        <li class="login-button">
+          <button type="submit" onclick="validate()">Login</button>
+          <button type="reset">Clear Fields</button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
