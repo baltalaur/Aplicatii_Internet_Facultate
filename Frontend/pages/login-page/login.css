@@ -6,7 +6,9 @@ html {
 body {
   background-image: url(../../common/images/login.gif);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
+  background-position: center center;
+  background-size: cover;
 }
 
 .login-form {
@@ -40,4 +42,18 @@ ul li {
 
 iframe {
   width: 100%;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-image: url(../../common/images/footer_background.gif);
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 15px;
 }
