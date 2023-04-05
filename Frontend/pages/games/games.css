@@ -7,7 +7,9 @@ body {
   display: grid;
   background-image: url(../../common/images/games-background.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
+  background-position: center center;
+  background-size: cover;
 }
 
 iframe {
@@ -45,4 +47,18 @@ iframe {
   background-size: 100% 100%;
   background-position: 0% 100%;
   transition: background-position 0.4s, background-size 0.3s ease-in-out;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-image: url(../../common/images/footer_background.gif);
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 15px;
 }

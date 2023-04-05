@@ -2,13 +2,83 @@ body {
   background-image: url(../../common/images/background.jpg);
   min-width: 100vh;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .header {
-  width: 100%;
-  scroll-behavior: unset;
+    width: 100%;
+    scroll-behavior: unset
 }
 
-.youtube-video {
-  margin-left: 40%;
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.background::after {
+  background-image: url(../../common/images/background1.jpg);
+}
+
+.background::after {
+  animation: changeBackground 30s infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url(../../common/images/background1.jpg);
+  }
+  25% {
+    background-image: url(../../common/images/background2.jpg);
+  }
+  50% {
+    background-image: url(../../common/images/background3.jpg);
+  }
+  75% {
+    background-image: url(../../common/images/background4.jpg);
+  }
+  100% {
+    background-image: url(../../common/images/background1.jpg);
+  }
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-image: url(../../common/images/footer_background.gif);
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 15px;
 }
