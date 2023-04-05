@@ -1,29 +1,30 @@
 body {
-    min-width: 100vh;
-    min-height: 100vh;
-    background-image: url(../../common/images/contact-background.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-image: url(../../common/images/contact-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 iframe {
   width: 100%;
+  height: 170px;
   grid-area: "navbar";
 }
 
 .footer {
-    position: fixed;
-    text-align: center;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-image: url(../../common/images/footer_background.gif);
-    background-size: 80px 60px;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 15px;
+  position: fixed;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-image: url(../../common/images/footer_background.gif);
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 15px;
 }
 
 .fa {
@@ -34,15 +35,10 @@ iframe {
   text-decoration: none;
   border-radius: 50%;
 }
-
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   background: #2c4476;
   color: white;
@@ -54,24 +50,29 @@ iframe {
 }
 
 .contact {
-    display: grid;
-    justify-content: center;
-    grid-template-areas: "contact contact";
+  display: grid;
+  justify-content: center;
+  grid-template-areas: "contact contact";
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: #205e61;
+  text-decoration: none;
+  color: #205e61;
 }
 
 li {
-    font-family: Fantasy;
-    color: #205e61;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 20px;
+  font-family: Fantasy;
+  color: #205e61;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.img-links {
+  margin-left: auto;
+  margin-right: auto;
 }

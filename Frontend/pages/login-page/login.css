@@ -6,9 +6,8 @@ html {
 body {
   background-image: url(../../common/images/login.gif);
   background-repeat: no-repeat;
-  /*background-size: 100% 100%;*/
-  background-position: center center;
   background-size: cover;
+  scroll-behavior: none;
 }
 
 .login-form {
@@ -45,6 +44,7 @@ ul li {
 
 iframe {
   width: 100%;
+  height: 170px;
 }
 
 .footer {
