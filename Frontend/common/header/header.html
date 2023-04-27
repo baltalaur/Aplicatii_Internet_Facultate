@@ -1,5 +1,6 @@
 <head>
   <link rel="stylesheet" href="header.css" />
+  <script src="header.js"></script>
 </head>
 <nav>
   <ul>
@@ -22,8 +23,13 @@
     <li>
       <a href="../../pages/contact/contact.html" target="_top">Contact</a>
     </li>
-    <li class="authenticate">
+    <li class="authenticate" id="login">
       <a href="../../pages/login-page/login.html" target="_top">Login</a>
+    </li>
+    <li id="logout">
+      <a href="../../pages/home/index.html" onclick="logout()" target="_top"
+        >Logout</a
+      >
     </li>
   </ul>
 </nav>

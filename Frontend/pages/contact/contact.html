@@ -61,7 +61,41 @@
         ></a>
       </div>
     </div>
+    <div class="container">
+      <h2>Send us your suggestions for future improvements</h2>
+      <form>
+        <label for="fname" class="label">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name"
+        />
+        <label for="lname" class="label">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name"
+        />
 
-    <div class="footer"></div>
+        <label for="email" class="label">Your Email Adress</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Your Email Adress"
+        />
+
+        <label for="subject" class="label">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Describe your suggestion"
+          style="height: 200px"
+        ></textarea>
+        <button class="send-form" onclick="submit()">Submit</button>
+      </form>
+    </div>
   </body>
 </html>

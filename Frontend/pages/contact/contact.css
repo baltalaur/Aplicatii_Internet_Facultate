@@ -13,20 +13,6 @@ iframe {
   grid-area: "navbar";
 }
 
-.footer {
-  position: fixed;
-  text-align: center;
-  padding: 10px 10px 0px 10px;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-image: url(../../common/images/footer_background.gif);
-  background-size: 80px 60px;
-  background-repeat: no-repeat;
-  background-position: center;
-  font-size: 15px;
-}
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -75,4 +61,53 @@ li {
 .img-links {
   margin-left: auto;
   margin-right: auto;
+}
+
+input[type="text"],
+select,
+textarea {
+  font-family: Fantasy;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.send-form {
+  font-family: Fantasy;
+  background-color: yellow;
+  color: #205e61;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.send-form:hover {
+  font-family: Fantasy;
+  background-color: #205e61;
+  color: yellow;
+}
+
+.container {
+  width: 60%;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.label {
+  font-family: Fantasy;
+  font-size: 1.3rem;
+}
+h2 {
+  font-family: Fantasy;
+  font-size: 1.6rem;
 }
