@@ -17,10 +17,17 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-const sound = document.getElementById('ping');
+const sound = document.getElementById("ping");
 
-document.addEventListener('click', (event) => {
+document.addEventListener("click", (event) => {
   if (event.which === 1) {
     sound.play();
   }
 });
+
+window.onload = function () {
+  var isLoggedIn = sessionStorage.getItem("loggedin");
+  if (isLoggedIn !== "true") {
+    window.location.href = "../../login-page/login.html";
+  }
+};

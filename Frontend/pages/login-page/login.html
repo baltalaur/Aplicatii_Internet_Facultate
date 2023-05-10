@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Login</title>
+    <link rel="icon" href="../../common/images/favicon.png" />
     <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
   </head>
   <body>
     <iframe src="../../common/header/header.html" frameborder="0"></iframe>
@@ -26,14 +29,13 @@
           /><br />
         </li>
         <li class="login-button">
-          <button form="loginForm">Login</button>
+          <button form="loginForm" onclick="login()">Login</button>
         </li>
         <li class="reset-button">
           <button form="loginForm" type="reset">Clear Fields</button>
         </li>
       </ul>
     </form>
-    <div class="footer">
-    </div>
+    <div class="footer"></div>
   </body>
 </html>
