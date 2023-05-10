@@ -1,39 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>League Of Legends</title>
-    <link rel="stylesheet" href="lol.css" />
-  </head>
-  <body>
 
-    <iframe
-      src="../../../common/header/header.html"
-      frameborder="0"
-      class="header"
-    ></iframe>
+<head>
+  <title>League Of Legends</title>
+  <link rel="stylesheet" href="lol.css" />
+</head>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/RXYnKlKtico"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+<body>
 
-    <audio id="ping">
-      <source src="../../../common/mp3/ping.mp3" type="audio/mpeg">
-    </audio>
+  <iframe src="../../../common/header/header.html" frameborder="0" class="header"></iframe>
 
-    <script>
-      const sound = document.getElementById('ping');
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RXYnKlKtico" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
 
-      document.addEventListener('click', (event) => {
-        if (event.which === 1) {
-          sound.play();
-        }
-      });
-    </script>
-  </body>
+  <audio id="ping">
+    <source src="../../../common/mp3/ping.mp3" type="audio/mpeg">
+  </audio>
+
+</body>
+
 </html>
