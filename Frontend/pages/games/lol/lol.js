@@ -1,4 +1,10 @@
-var audio = document.getElementById("myAudio");
+window.onload = function () {
+  var isLoggedIn = sessionStorage.getItem("loggedin");
+  if (isLoggedIn !== "true") {
+    window.location.href = "../../login-page/login.html";
+  }
+};
+
 var gifContainer = document.querySelector(".gif-container");
 var gif = gifContainer.querySelector("img");
 
@@ -17,17 +23,16 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-const sound = document.getElementById("ping");
-
-document.addEventListener("click", (event) => {
-  if (event.which === 1) {
-    sound.play();
+document.addEventListener("gif", function myFunction() {
+  var x = document.getElementById("morgana");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
 });
 
-window.onload = function () {
-  var isLoggedIn = sessionStorage.getItem("loggedin");
-  if (isLoggedIn !== "true") {
-    window.location.href = "../../login-page/login.html";
-  }
-};
+function mamamia() {
+  const sound = document.getElementById("ping");
+  sound.play();
+}
