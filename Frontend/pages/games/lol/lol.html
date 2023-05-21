@@ -26,5 +26,36 @@
     <audio id="ping" src="../../../common/mp3/ping.mp3"></audio>
     <button class="gif" onclick="mamamia()">ping</button>
     <div class="morgana"></div>
+
+    <button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Subbmit</h1>
+
+    <label for="nume campion favorit"><b>Nume campion</b></label>
+    <input type="text" placeholder="Enter nume campion favorit" name="nume campion favorit" required>
+
+    <label for="abilitate favorita"><b>Abilitate Favorita</b></label>
+    <input type="abilitate favorita" placeholder="Enter abilitate favorita" name="abilitate favorita" required>
+
+    <label for="descriere abilitate"><b>Descriere Abilitate</b></label>
+    <input type="descriere abilitate" placeholder="Enter descriere abilitate" name="descriere abilitate" required>
+
+    <button type="submit" class="btn">Subbmit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
   </body>
 </html>

@@ -36,3 +36,4 @@ function mamamia() {
   const sound = document.getElementById("ping");
   sound.play();
 }
+//button de  deschis form si inchis , la apasare deschid un formular care contune campuri si buton subbmit

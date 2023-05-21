@@ -64,7 +64,7 @@
     </div>
     <div class="container">
       <h2>Send us your suggestions for future improvements</h2>
-      <form id  = "myForm" action="contact.php" method="post">
+      <form name="myForm" action="contact.php" method="post" >
         <label for="fname" class="label">First Name</label>
         <input
           type="text"
@@ -95,7 +95,7 @@
           placeholder="Describe your suggestion"
           style="height: 200px"
         ></textarea>
-        <button class="send-form" onclick="submit()">Submit</button>
+        <button class="send-form" onclick="validateForm()">Submit</button>
       </form>
     </div>
   </body>
