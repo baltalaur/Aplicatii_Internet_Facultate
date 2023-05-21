@@ -15,7 +15,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   <title>League Of Legends</title>
   <link rel="icon" href="../../../common/images/favicon.png" />
   <link rel="stylesheet" href="lol.css" />
-  <script src="lol.js"></script>
+  <!-- <script src="lol.js"></script> -->
 </head>
 
 <body>
@@ -25,6 +25,9 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   <audio id="ping" src="../../../common/mp3/ping.mp3"></audio>
   <button class="gif" onclick="mamamia()">ping</button>
   <div class="morgana"></div>
+  <h1>League of Legends Champions</h1>
+
+  <ul class="champion-list" id="champions"></ul>
 </body>
 
 </html>
