@@ -14,10 +14,3 @@ function checkUserState(loggedin) {
     logOutButton.style.display = "none";
   }
 }
-
-function logout() {
-  sessionStorage.removeItem("user_email");
-  sessionStorage.removeItem("user_password");
-  sessionStorage.setItem("loggedin", false);
-  window.location.reload();
-}

@@ -1,10 +1,3 @@
-window.onload = function () {
-  var isLoggedIn = sessionStorage.getItem("loggedin");
-  if (isLoggedIn !== "true") {
-    window.location.href = "../../login-page/login.html";
-  }
-};
-
 var gifContainer = document.querySelector(".gif-container");
 var gif = gifContainer.querySelector("img");
 

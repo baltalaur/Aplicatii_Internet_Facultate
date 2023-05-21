@@ -10,7 +10,8 @@ body {
   scroll-behavior: none;
 }
 
-.login-form {
+.login-form,
+.welcome-message {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,14 +21,12 @@ ul {
   list-style: none;
 }
 
-.login-button,
-.reset-button {
+.login-button {
   text-align: center;
   border-radius: 330px;
 }
 
-.login-button :hover,
-.reset-button :hover {
+.login-button :hover {
   background-color: azure;
   text-align: center;
   border-radius: 330px;
