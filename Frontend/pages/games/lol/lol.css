@@ -11,24 +11,38 @@ body {
   height: 170px;
 }
 
-.gif:hover {
-  animation: name duration;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
 }
 
-@keyframes morgana {
-  0% {
-    background-image: url(../../common/images/background1.jpg);
-  }
-  25% {
-    background-image: url(../../common/images/background2.jpg);
-  }
-  50% {
-    background-image: url(../../common/images/background3.jpg);
-  }
-  75% {
-    background-image: url(../../common/images/background4.jpg);
-  }
-  100% {
-    background-image: url(../../common/images/background1.jpg);
-  }
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+.champion-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.champion-list li {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.champion-name {
+  font-weight: bold;
+}
+
+.champion-ability {
+  margin-top: 5px;
+}
+
+.champion-description {
+  color: #666666;
 }
