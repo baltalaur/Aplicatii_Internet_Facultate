@@ -8,8 +8,10 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
+
 
 <head>
   <title>League Of Legends</title>
@@ -19,6 +21,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 </head>
 
 <body>
+
   <iframe src="../../../common/header/header.html" frameborder="0" class="header"></iframe>
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/RXYnKlKtico" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
