@@ -13,6 +13,37 @@ body {
   scroll-behavior: unset;
 }
 
+h1 {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+.description-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.description {
+  background-color: #a6a4a1;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.game-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.game-description {
+  color: #666;
+}
+
 .background {
   position: fixed;
   top: 0;
