@@ -20,10 +20,10 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 <body>
   <iframe src="../../../common/header/header.html" frameborder="0" class="header"></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/x55lAlFtXmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <h1>Assassin's Creed Games</h1>
-
-  <ul id="game-list"></ul>
-
+  <div class="lista-jocuri" style=" background-color: rgba(151, 141, 146, 0.7);">
+    <h1 style="text-align: center;font-weight:600">Assassin's Creed Games</h1>
+    <ul id="game-list" style="font-size: 20px; text-align: center;font-weight:600"></ul>
+  </div>
 </body>
 
 </html>

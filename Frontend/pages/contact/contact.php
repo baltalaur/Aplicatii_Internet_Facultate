@@ -50,7 +50,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   </div>
   <div class="container">
     <h2>Send us your suggestions for future improvements</h2>
-    <form action="contact.php" method="post">
+    <form action="./contact-form.php" method="post">
       <label for="fname" class="label">First Name</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name" />
       <label for="lname" class="label">Last Name</label>
@@ -61,7 +61,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
       <label for="subject" class="label">Subject</label>
       <textarea id="subject" name="subject" placeholder="Describe your suggestion" style="height: 200px"></textarea>
-      <button class="send-form" onclick="submit()">Submit</button>
+      <button class="send-form">Submit</button>
     </form>
   </div>
 </body>
